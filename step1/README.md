@@ -107,3 +107,22 @@ while True:
     display.set_pixel(3,2,9)
     display.set_pixel(4,2,9)
 ```
+
+### STEP 1.3 プレイヤーを動かそう！
+```
+# CHANGING POSITION OF PLAYER
+from microbit import *
+
+x = 2
+
+while True:
+    display.set_pixel(x,3,0)
+    sleep(500)
+    # ボタンを動かした後の一コマ
+    if button_a.get_presses():
+        # ここに動かすためのコードを書こう！
+    elif button_b.get_presses():
+        # ここに動かすためのコードを書こう！
+    display.set_pixel(x,3,9)
+    sleep(500)
+```
