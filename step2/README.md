@@ -38,6 +38,9 @@ a = a + 1
 
 ### STEP 2.1 上から下に光の点が流れるコードを書こう！
 ```
+from microbit import *
+import random
+
 # このコードの変数をどうしたら動くように見えるかな？
 x = 2
 y = 0
@@ -52,6 +55,9 @@ while True:
 
 ### STEP 2.2 下まで行ったら一番上に戻すコードを書こう！
 ```
+from microbit import *
+import random
+
 # このコードのどこにif文を入れたら上に戻るだろう？
 x = 2
 y = 0
@@ -66,6 +72,9 @@ while True:
 
 ### STEP 2.3 場所をランダムに決めて出そう！
 ```
+from microbit import *
+import random
+
 # このコードのどこにif文を入れたら場所がランダムに出てくるかな？
 x = 2
 y = 0
