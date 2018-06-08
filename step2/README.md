@@ -7,18 +7,6 @@
 1. 光の点はどんな動きをする？
 1. １コマにどんなコードが必要？
 
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
 ### STEP 2で使う関数
 #### 0〜5までの数字からランダムに取り出して、xに入れておく
 ```
@@ -46,9 +34,9 @@ x = 2
 y = 0
 
 while True:
-    display.set_pixel(x,y,5)
-    sleep(500)
     display.set_pixel(x,y,0)
+    sleep(500)
+    display.set_pixel(x,y,5)
     sleep(500)
 
 ```
@@ -63,9 +51,9 @@ x = 2
 y = 0
 
 while True:
-    display.set_pixel(x,y,5)
-    sleep(500)
     display.set_pixel(x,y,0)
+    sleep(500)
+    display.set_pixel(x,y,5)
     sleep(500)
 
 ```
@@ -80,9 +68,9 @@ x = 2
 y = 0
 
 while True:
-    display.set_pixel(x,y,5)
-    sleep(500)
     display.set_pixel(x,y,0)
+    sleep(500)
+    display.set_pixel(x,y,5)
     sleep(500)
 
 ```
